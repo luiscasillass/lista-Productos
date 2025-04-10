@@ -1,0 +1,50 @@
+.lista-productos {
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #f5f5f5;
+  }
+  
+  .tarjeta {
+    width: 220px;
+    padding: 16px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .tarjeta img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 12px;
+  }
+  
+  .precio-anterior {
+    text-decoration: line-through;
+    color: gray;
+    margin-right: 8px;
+  }
+  
+  .precio-descuento {
+    color: #004f9e;
+    font-weight: bold;
+  }
+  
+  button {
+    background-color: #004f9e;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin-top: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #003573;
+  }
+  
